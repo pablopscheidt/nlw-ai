@@ -116,6 +116,7 @@ export function App() {
                 min={0}
                 max={1}
                 step={0.1}
+                className="cursor-pointer"
               />
               <span className="block text-xs text-muted-foreground italic leading-relaxed">
                 Valores mais altos tendem a deixar o resultado mais criativo e com possíveis erros!
