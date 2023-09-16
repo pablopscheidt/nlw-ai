@@ -1,10 +1,10 @@
 # @name get-prompts
-GET http://localhost:4403/prompts
+GET https://nlw-ai-orcin.vercel.app/prompts
 
 ###
 
 # @name upload
-POST http://localhost:4403/videos
+POST https://nlw-ai-orcin.vercel.app/videos
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
@@ -17,7 +17,7 @@ Content-Type: audio/mpeg;
 ###
 
 # @name create-transcription
-POST http://localhost:4403/videos/9716fd01-6159-459d-97f3-0ce719d8a895/transcription
+POST https://nlw-ai-orcin.vercel.app/videos/9716fd01-6159-459d-97f3-0ce719d8a895/transcription
 Content-Type: application/json
 
 {
@@ -27,7 +27,7 @@ Content-Type: application/json
 ###
 
 # @name generate-ai-completion
-POST http://localhost:4403/ai/complete
+POST https://nlw-ai-orcin.vercel.app/ai/complete
 Content-Type: application/json
 
 {
